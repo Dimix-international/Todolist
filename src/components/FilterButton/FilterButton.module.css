@@ -1,0 +1,6 @@
+.btn {
+    cursor: pointer;
+}
+.btn_active {
+    background-color: yellow;
+}

@@ -1,0 +1,42 @@
+.body {
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+.container {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: linear-gradient(45deg, #8512e5, #0c0c6d);
+    text-align: center;
+    color:#fff;
+    transition: all 0.5s;
+    box-shadow: 0 1px 35px 0 rgba(0,0,0,0.3);
+}
+.container__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container__loader div{
+    flex: 0 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container:hover{
+    height: 403px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 1px 35px 0 rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+
+

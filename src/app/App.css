@@ -1,0 +1,35 @@
+
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.App > div {
+  flex: 0 1 25%;
+  box-sizing: border-box;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
